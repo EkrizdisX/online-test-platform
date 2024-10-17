@@ -23,7 +23,7 @@ const testSchema = new mongoose.Schema({
   title: { type: String, required: true },
   questions: [
     {
-      question: { type: String, required: true },
+      question: { type: String , required: true },
       options: [
         { text: { type: String, required: true }, image: String },
       ],
